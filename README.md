@@ -1,8 +1,6 @@
 # Differentially-Private-Analysis-of-the-COMPAS
 Differentially private analysis of COMPAS criminal justice data using Laplace and Gaussian mechanisms - CIS 545 group project, UM-Dearborn.
 
-# Differentially Private Analysis of the COMPAS Dataset
-
 This repository contains a group project for CIS 545 at University of Michigan–Dearborn. We performed a differentially private analysis on the COMPAS criminal justice dataset using Laplace and Gaussian noise mechanisms.
 
 ## Files Included
