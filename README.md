@@ -7,6 +7,7 @@ This repository contains a group project for CIS 545 at University of Michiganâ€
 - `CIS_545_Project_Notebook.ipynb`: The main Jupyter notebook. Contains all code, analysis, and data visualizations.
 - `CIS_545_Project_Report.pdf`: The final written report summarizing our methods, results, and findings.
 - `compas-scores-two-years.csv`: Used for our analysis. Source: (link: https://github.com/propublica/compas-analysis)
+- `COMPAS_DP_project_ Presentation.pptx`: The technical presentation summarizing our methodology. (My specific contributions: Slides 8-11)
 
 ## Contributors
 - **Anthony Lewis** (UM-Dearborn) â€“ alewi@umich.edu
@@ -26,6 +27,12 @@ This repository contains a group project for CIS 545 at University of Michiganâ€
     - Analysis of mean COMPAS score differences between Black and White defendants, demonstrating fairness impacts under differential privacy.
 - Automated the comparison and reporting of results for multiple privacy settings (epsilon sweeps), and generated summary tables and privacy-utility tradeoff plots.
 - Interpreted and integrated technical findings for use in group report (collaborated on experimental evaluation/results section).
+
+## Personal Contribution Technical Impact & Findings
+
+- Privacy-Utility Tradeoff: I conducted an "epsilon sweep" to identify the optimal privacy budget where we could protect individual records while maintaining a low error margin on average risk scores.
+
+- Fairness Audit: My analysis demonstrated how adding noise (Laplace vs. Gaussian) affects the statistical parity between Black and White defendant scores. This is a critical consideration for deploying AI in sensitive socio-technical systems.
 
 ## How to Run
 1. Install required packages:  
